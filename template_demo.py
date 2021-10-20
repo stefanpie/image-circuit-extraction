@@ -11,12 +11,12 @@ from scipy import stats
 
 visualize = True
 
-template = cv2.imread("./data/components/resistor/0.png")
+template = cv2.imread("./data_old/components/resistor/0.png")
 template = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
 # template = cv2.Canny(template, 50, 200)
 
 
-image = cv2.imread("./data/circuits/0.png")
+image = cv2.imread("./data_old/circuits/0.png")
 image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # image = cv2.Canny(image, 50, 200)
 # cv2.imshow("image", image)
